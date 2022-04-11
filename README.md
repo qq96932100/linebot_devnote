@@ -15,7 +15,8 @@
 
 1. LineBot (Python+Flask)  服務內容較為簡單 輕量級框架較為適合
 2. Models(matplotlib+pandas+numpy) 讀取成績內容進行操作並繪製圖表
-3. Database(excel) 方便TA直接輸入成績 無須再將成績csv檔輸入資料庫
+3. Database(Google sheet) 方便TA直接輸入成績 將數據雲端化
+4. SQLite 將學生身份和Line帳號掛勾 保護學生隱私
 
 # 參考資料
 
@@ -82,6 +83,6 @@
 
 - [x]  將成績訊息改用flex message傳送
 - [ ]  部署至apache 伺服器而非使用ngrok
-- [ ]  美化Flex Message 的排版
+- [x]  美化Flex Message 的排版
 - [ ]  將目前code寫成物件導向
 - [ ]  增加程式碼彈性與使用性，方便老師新增科目、調整評分、修改圖表顏色等
